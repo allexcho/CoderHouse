@@ -1,0 +1,33 @@
+* {
+  background-color: blanchedalmond;
+}
+
+/* Index HTML */
+
+.menu {
+  list-style-type: none;
+  display: inline-block;
+}
+
+header {
+  text-align: center;
+  padding-top: 10px;
+}
+
+/* About HTML */
+
+.about {
+  text-align: center;
+}
+
+.description {
+  padding-top: 25px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+/* Footer */
+
+.icons {
+  text-align: center;
+}

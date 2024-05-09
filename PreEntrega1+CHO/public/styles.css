@@ -1,0 +1,203 @@
+* {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/* ---------- HEADER ---------- */
+
+header {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.title a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(47, 79, 79);
+}
+
+.registerForm {
+  display: block;
+  text-align: center;
+  padding: 20px;
+}
+
+/* ---------- HEADER ---------- */
+
+/* ---------- MAIN ---------- */
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.main img {
+  max-width: 30%;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.product div {
+  width: 30%;
+  margin: 10px;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+}
+
+.product p {
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.product button {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10%;
+}
+
+.mainContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+}
+
+.leftContent {
+  flex: 1;
+  text-align: center;
+}
+
+.rightContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.rightContent h1 {
+  font-size: 40px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.rightContent h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.rightContent p {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 15px;
+}
+
+.rightContent label {
+  margin: 10px;
+  padding-left: 13.5%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="button"] {
+  display: block;
+  left: 15%;
+}
+
+input[type="email"] {
+  width: 70%;
+  height: 25px;
+  position: relative;
+}
+
+input[type="text"] {
+  width: 70%;
+  height: 150px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+input[type="button"] {
+  width: 20%;
+  height: 50px;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+  position: relative;
+}
+
+/* ---------- MAIN ---------- */
+
+/* ---------- FOOTER ---------- */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-icons {
+  display: flex;
+}
+
+footer div p {
+  margin-left: 200px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+footer div i {
+  padding-right: 15px;
+}
+
+.icons {
+  margin-right: 200px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.icons a {
+  color: black;
+}
+
+/* ---------- FOOTER ---------- */
